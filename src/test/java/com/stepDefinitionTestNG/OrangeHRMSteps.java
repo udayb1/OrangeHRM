@@ -47,7 +47,7 @@ public void i_enter_username_and_password() {
 @Then("login should be successful")
 public void login_should_be_successful() {
     System.out.println("Login successful");
-    //DriverManager.quitDriver();
+    DriverManager.quitDriver();
 }
 
 
